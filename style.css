@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  text-align: center;
+  background-color: thistle;
+  padding: 30px 0px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 250px;
+  height: 660px;
+  background-color: bisque;
+  padding: 30px;
+}
+
+.canvas {
+  display: flex;
+  width: 660px;
+  height: 660px;
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  border: 1px solid palevioletred;
+  background-color: white;
+}
+
+.square {
+  border: 1px solid black;
+}
